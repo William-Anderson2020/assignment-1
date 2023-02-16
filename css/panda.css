@@ -1,0 +1,35 @@
+body {
+  font-family: Courier New;
+  background-color: rgb(104, 104, 104);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#main_cont{
+  max-width: 60%;
+  padding: 20px;
+  background-color: rgba(255,255,255,.05);
+  border-radius: 30px;
+}
+
+.cont{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+}
+
+.paragraph{
+  text-align: justify;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: inherit;
+}
