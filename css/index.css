@@ -3,3 +3,10 @@ body {
   background-color: rgb(23, 136, 23);
   text-align: center;
 }
+
+.cont{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
